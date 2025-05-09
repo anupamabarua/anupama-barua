@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<meta charset="utf-8">
+<title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+
+<style>
+    
+</style>
+</head>
+<body id = 'assign'>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="honors.html">HONORS</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+<h1>Contact</h1>
+
+<h2>Email:anupamabaruaa@gmail.com</h2>
+
+
+    <div style="height: 900px;"></div>
+
+    <video autoplay loop muted plays-inline>
+        <source src="MP4s/turtle.mp4" type="video/mp4">
+    </video>
+    
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
