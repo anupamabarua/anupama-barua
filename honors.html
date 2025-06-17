@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<meta charset="utf-8">
+<title>Honors</title>
+
+    <link rel="stylesheet" href="style.css">
+
+<script>
+    function init() {
+      var loc = window.location.href;
+      var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+      var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                            loc + '?profile=css3';
+      document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+      document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+    }
+    window.onload = init;
+    </script>
+
+<style>
+    h2{
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    font-size: 15px;
+    }
+    h3{
+        position: absolute;
+    top: 600px;
+    left: 800px;
+    font-size: 15px;
+    }
+
+
+</style>
+</head>
+<body id = 'assign'>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutme.html">ABOUT ME</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="honors.html">HONORS</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+<h1>Honors</h1>
+<h2>Achievements
+    <ul>
+        <li>PyCon Conference - Presented in the Education Summit May 2025</li>
+        <li>Summer Bridge Program IET/Cybersecurity August 2024<li>
+        <li>Best Life Fair Winner May 2024</li>   
+        <li>Arlington Student Film Fest Official Selection April 2024</li>
+        <li>SkillsUSA SFX District 5 Bronze Winner April 2024</li>
+    </ul>
+</h2>
+<h3>Certifications
+    <ul>
+        <li>BLS CPR and AED Certification December 2024</li>
+        <li>Workplace Readiness Certification February 2023</li>
+      </ul>
+</h3>
+
+
+    <div style="height: 900px;"></div>
+
+    <video autoplay loop muted plays-inline>
+        <source src="MP4s/trees.mp4" type="video/mp4">
+    </video>
+    
+
+<footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> 
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+</footer>
+
+</body>
+</html>
